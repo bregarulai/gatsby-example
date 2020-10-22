@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const getData = graphql`
   {
     site {
-      siteMetadata {
+      info: siteMetadata {
         title
         description
         author
@@ -21,7 +21,7 @@ const getData = graphql`
 const Header = () => {
   const {
     site: {
-      siteMetadata: {
+      info: {
         title,
         person: { name },
       },
