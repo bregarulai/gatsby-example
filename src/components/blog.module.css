@@ -1,0 +1,13 @@
+.page {
+    background: lightblue;
+}
+
+.page h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.text {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
