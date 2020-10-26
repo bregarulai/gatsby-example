@@ -18,6 +18,10 @@ body {
     margin: 0 auto 10rem auto;
 }
 
+.small {
+    width: 20%;
+}
+
 .single-image {
     border: 3px solid red;
     padding: 1rem 0;
@@ -28,5 +32,9 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 1rem;
+    }
+
+    .small {
+        width: 10%;
     }
 }

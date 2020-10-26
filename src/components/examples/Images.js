@@ -37,6 +37,9 @@ const Images = () => {
       <article className="single-image">
         <h3>Fluid image/svg</h3>
         <Image fluid={data.fluid.childImageSharp.fluid} />
+        <div className="small">
+          <Image fluid={data.fluid.childImageSharp.fluid} />
+        </div>
       </article>
     </section>
   )
