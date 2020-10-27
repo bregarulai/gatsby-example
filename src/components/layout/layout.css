@@ -27,6 +27,38 @@ body {
     padding: 1rem 0;
 }
 
+.single-product {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 3rem auto;
+}
+
+.single-product h1 {
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+.single-product h3 {
+    color: gray;
+    margin-bottom: .5rem;
+}
+
+.single-product p {
+    margin-bottom: .5rem;
+}
+
+button {
+    padding: .5rem 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .single-product {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
 @media screen and (min-width:992px) {
     .images {
         display: grid;

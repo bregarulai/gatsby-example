@@ -15,7 +15,7 @@ const ProductTemplate = ({
 }) => {
   return (
     <Layout>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center", textTransform: "capitalize" }}>
         <Link to="/products">back to products</Link>
         <h1>single page: {title}</h1>
       </div>
