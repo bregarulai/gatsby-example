@@ -1,13 +1,37 @@
 .page {
-    background: pink
+    width: 90vw;
+    max-width: 1170px;
+    text-transform: capitalize;
+    margin: 0 auto;
 }
 
-.page h1 {
-    text-align: center;
+.page span {
+    margin-left: 2rem;
+    color: gray;
+}
+
+.page article {
     margin: 2rem 0;
 }
 
-.text {
-    text-transform: capitalize;
-    margin-bottom: 2rem;
+.page h3 {
+    margin: 1rem 0;
+}
+
+.page div {
+    height: 15rem;
+}
+
+@media screen and (min-width:768px) {
+    .page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .page {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
